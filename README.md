@@ -1,5 +1,12 @@
 iops
 =====
+
+----
+
+This fork has been fixed to work with Python 2 and 3.
+
+----
+
 iops is an IO benchmark tool that performs random reads on block devices.
 If an exact block size is not specified using -b, the the size starts with
 the physical sector size (defaulting to 4k) and doubles every iteration of
